@@ -1,0 +1,983 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #000;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #000;
+}
+
+.full-size{
+  height: 30rem;
+}
+
+/* Color white text
+-------------------------------------------------- */
+
+.color-text-white{
+  color:white;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Since positioning the image, we need to help out the caption */
+
+
+.carousel-caption {
+  bottom: 4rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 30rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-divider-medium {
+  margin: 3.5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-divider-small {
+  margin: 1rem 0  3rem; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.featurette-heading-standard {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.featurette-heading-standard {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.featurette-heading {
+  font-size: 50px;
+}
+
+.featurette-heading-small {
+  font-size: 50px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading-standard {
+    font-size: 43px;
+  }
+
+  .myDiv {
+    display:none !important;
+  }
+
+
+}
+
+@media (min-width: 62em) {
+
+
+  .featurette-heading-standard {
+    margin-top: 3rem;
+  }
+
+  .featurette-heading-small {
+    margin-top: 1rem;
+  }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){ 
+  .lead {
+    font-size: 1rem;
+  }
+
+  .featurette-heading-small {
+    font-size: 2rem !important;
+  }
+
+  .mtop{
+    margin-top: 50px !important;
+  }
+
+  .mb-mobile {
+    margin-bottom: 0px !important;
+  }
+
+}
+
+@media (max-width: 62em){
+
+  .featurette-heading-small {
+    font-size: 2rem;
+  }
+
+  .pay {
+    width: 25%;
+  }
+  .clip{
+    width: 40px;
+  }
+
+  .bbva {
+    width: 65px;
+  }
+  .visa {
+    width: 65px;
+  }
+  .master {
+    width: 45px;
+  }
+  .logo-whirlpool{
+    width: 140px !important;
+  }
+
+  .shadow-ask {
+    box-shadow: none !important;
+    border-bottom-right-radius: 0px !important;
+  }
+
+  .btn-mobile-action{
+    display: inline-block !important;
+  }
+
+  .btn-web-action{
+    display: none !important;
+  }
+
+  .tittle-h2{
+    font-size: 1.8rem !important;
+  }
+  .mt {
+    margin-top: 1.5rem !important;
+  }
+  .align-mobile{
+    text-align: right;
+  }
+
+  .mt-img{
+    margin-top:1.5rem;
+  }
+
+  .col-xs{
+    width: 50% !important;
+  }
+
+  /*
+  ----------------------- */
+
+  .frigidaire{
+    margin-top: 10px !important;
+    width: 160px !important;
+  }
+  .mabe{
+    margin-top: 7px !important;
+  }
+  .bosch{
+    margin-top: 30px !important;
+  }
+  .teka{
+    width: 70px !important;
+    margin-top: 5px;
+  }
+
+  .koblenz{
+    width: 160px !important;
+  }
+  .mabe{
+    width: 100px !important;
+  }
+  .maytag{
+    width: 105px !important;
+  }
+  .bosch{
+
+  }
+  /*
+  -------------------------- */
+
+  .hidde-element-mobile{
+    display: none !important;
+
+  }
+
+  .hidde-element-web{
+    display: block !important;
+
+  }
+
+  .img-logo-size{
+    width:180px !important;
+  }
+
+  .mb-mobile{
+    margin-bottom: 100px;
+  }
+
+  .carousel-caption p {
+   
+    font-size: 1.2rem;
+}
+
+
+}
+
+
+/* ITEM SCROLLPY CSS CODE
+------------------------------------------------------- */
+
+.scrollspy-example {
+  position: relative;
+  height: 250px;
+  margin-top: 1.2rem;
+  overflow: auto;
+}
+
+
+/* GRID COLORS
+-------------------------------------------------------- */
+
+.cta-black{
+  background-color: black !important;
+  border-radius: unset !important;
+  color:white; 
+}
+
+.cta-greey{
+  background-color: #6B6B6B !important;
+  border-radius: unset !important;
+  color:white; 
+}
+
+.cta-black-cement{
+  background-color: #323333 !important;
+  border-radius: unset !important;
+  color:white; 
+}
+
+.cta-downgrey{
+  background-color: #aaa !important;
+  border-radius: unset !important;
+  color:white; 
+}
+
+.cta-bluecream{
+  background-color: #111526 !important;
+  border-radius: unset !important;
+  color:white; 
+}
+
+.cta-bluemaster{
+  background-color: #006cdf !important;
+  border-radius: unset !important;
+  color:white; 
+}
+
+.cta-bluemarine{
+  background-color: #222740 !important;
+  border-radius: unset !important;
+  color:white; 
+}
+.cta-grey{
+  background-color: #d6d6d6 !important;
+  border-radius: unset !important;
+  color:black; 
+}
+
+.cta-red-frigidaire{
+  background-color: #ee405a !important;
+  border-radius: unset !important;
+  color:white;
+}
+
+.cta-storm{
+  background-color: #242424 !important;
+  border-radius: unset !important;
+  color:white;
+}
+.cta-blood{
+  background-color: #f39a3e !important;
+  border-radius: unset !important;
+  color:white;
+}
+
+.cta-yellow{
+  background-color: #A50034 !important;
+  border-radius: unset !important;
+  
+}
+
+.cta-bluesamsung{
+  background-color: #014ca3 !important;
+  border-radius: unset !important;
+  color:white;
+}
+
+.cta-bluemabe{
+  background-color: #176595 !important;
+  border-radius: unset !important;
+  color:white;
+}
+.cta-bluedown{
+  background-color: #c7d3d9 !important;
+  border-radius: unset !important;
+  color:white;
+}
+
+.cta-lg{
+  background-color: #bb0a3e !important;
+  border-radius: unset !important;
+  color:white;
+}
+
+.cta-nieto{
+  background-color: #4caf9d !important;
+  border-radius: unset !important;
+  color:white;
+}
+.cta-bosch{
+  background-color: #eb3832 !important;
+  border-radius: unset !important;
+  color:white;
+}
+.cta-hisense{
+  background-color: #4caf9c !important;
+  border-radius: unset !important;
+  color:white;
+}
+.bg-blue-nieto{
+  background-color:#165491;
+}
+.bg-blue-bosch{
+  background-color:#eb3732;
+}
+
+.bg-blue-menta{
+  background-color:#4caf9c;
+}
+.bg-bluedown{
+  background-color: #c7d3d9;
+}
+.bg-bluemabe{
+  background-color: #176595;
+}
+
+.bg-black{
+  background-color: #000;
+}
+
+.bg-black-cement{
+  background-color: #323333;
+}
+
+.text-black-cement{
+  color: #323333;
+}
+
+.bg-bluecream{
+  background-color: #111526;
+}
+
+.bg-grey{
+  background-color: #d6d6d6;
+}
+
+.bg-downgrey{
+  background-color: #aaa;
+}
+
+.bg-bluemaster{
+  background-color: #006cdf;
+}
+
+.bg-red-frigidaire{
+  background-color: #ee405a;
+}
+
+.bg-blood{
+  background-color: #a50034;
+}
+.bg-yellow{
+  background-color: #A50034;
+}
+
+.bg-bluemarine{
+  background-color: #222740;
+}
+
+.bg-bluesamsung{
+  background-color: #014ca3;
+}
+
+.bg-lg{
+  background-color: #bb0a3e;
+}
+
+.bg-red-nieto{
+  background-color: #ff0400;
+}
+
+.padding-automatic-text{
+  padding-bottom: 150;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 150;
+}
+
+
+.cta-div{
+  width:100%;
+  height:auto;
+  background-color:#721dbf;
+  -webkit-animation-name:example;
+  -webkit-animation-duration:30s;
+  animation-name:example;
+  animation-duration:30s;
+  animation-iteration-count:50;
+  color:white !important;
+}
+
+@-webkit-keyframes example{
+  0%{background-color:#721dbf}
+  25%{background-color:#c432c9}
+  50%{background-color:#f92c8b}
+  100%{background-color:#721dbf}
+
+}
+
+@keyframes example{
+  0%{background-color:#721dbf}
+  25%{background-color:#c432c9}
+  50%{background-color:#f92c8b}
+  100%{background-color:#721dbf}
+}
+
+
+/* LINK FOOTER COLOR
+-------------------------------------------------------- */
+
+.link-footer{
+  color:green;
+}
+
+/* ZINDEX first
+---- */
+
+.position{
+  z-index:999999!important;
+}
+
+.shadow-ask {
+  box-shadow: 5rem 4rem 4rem rgba(0,52,69,0.100);
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+/* CANVA PARTICLES
+-------------------------------------------------------- */
+
+
+#particles-js{
+  width: 100%;
+  height: 400px;
+  background-color: #222740;
+  background-image: url('../assets/img/logotipo-blanco-oficial.png');
+  background-size: 160px 125px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+/* DISABLE Q&A OPTIONS LINK
+-------------------------------------------------------- */
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+
+/* TEXTOFORMAT CTA
+-------------------------------------------------------- */
+
+.text-color{
+  color:white !important;
+
+}
+
+/*REMOVE DECORATION ON HOVER EFFECT
+
+.text-color:hover{
+  text-decoration: none;;
+}
+
+**/
+
+ /* hidde btn mobile call
+ ------------------------------------------------------- */
+ .btn-mobile-action{
+  display: none;
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+.tittle-h2{
+  font-size: 3.5rem;
+}
+
+
+
+  /* TEXT SHOW
+  -------------------------------------------------------- **/
+
+  .text {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+ }
+
+/*MODAL DIALOG
+----------------------------------------------------------- */
+
+.modal-dialog{
+  margin-top:115px;
+}
+
+
+/*IMG SIZE AND CORRROUSEL WIDTH
+----------------------------------------------------------- */
+.img-size-png{
+  width: 95%;
+}
+
+.img-size-png-frigo{
+  width: 85%;
+}
+
+.carousel-caption {
+  right: 12% !important ;
+  left: 12% !important;
+}
+
+
+
+/* MARGIN TOP
+---------------------------------------------------------- */
+.mt {
+  margin-top: 4.5rem;
+}
+
+/* LOGO MARK
+----------------------------------------------------------- */
+
+.frigidaire{
+  margin-top: 25px;
+}
+.mabe{
+  margin-top: 12px;
+}
+.koblenz{
+  margin-top: 12px;
+}
+.wolf{
+  margin-top: 13px;
+}
+.lg{
+  margin-top: 6px;
+}
+
+
+/*
+------------------------------------------------------------ */
+.hidde-element-mobile{
+  display: block;
+
+}
+.hidde-element-web{
+  display: none;
+
+}
+
+
+/*CTA LINK ALIGN*/
+
+#whats_link{
+  float: right;
+}
+
+#llamar_link{
+  float: right;
+
+}
+
+.img-logo-size{
+  width:180px;
+}
+
+.logo-maytag{
+  width: 100px;
+}
+
+.img-whirlpool-png{
+  width: 90%;
+}
+.img-frigidaire-png{
+  width: 50%;
+}
+.img-samsung-png{
+  width: 60%;
+}
+
+.img-mabe-png{
+  width: 50%;
+}
+
+.img-lg-png{
+  width: 45%;
+}
+
+.img-maytag-png{
+  width: 40%;
+}
+.img-lg-refri{
+  width: 38%;
+}
+
+.logo-whirlpool{
+  width: 20%;
+}
+
+.img-mabe-refri-png{
+  width: 30%;
+}
+.img-frigidaire-refri-png{
+  width: 35%;
+}
+
+.logo-frigidaire{
+  width: 80%;
+}
+
+.logo-samsung{
+  width: 160px;
+}
+
+.logo-mabe{
+  width: 110px;
+}
+
+.logo-lg{
+  width: 125px;
+}
+
+.logo-nieto{
+  width: 50%;
+}
+.logo-bosch{
+  width: 200px;
+}
+
+.img-nieto-refri{
+  width: 100%;
+}
+.img-bosch-estufa{
+  width: 80%;
+}
+.descuento-bosch{
+  color: #ffff00 !important;
+  font-size: 28px;   
+  font-weight: bold;
+}
+.descuento-bosch{
+  color: #ffff00 !important;
+  font-size: 28px;   
+  font-weight: bold;
+}
+.visita{
+
+  color: #fbd74a !important;
+  font-size: 2rem   
+  font-weight: bold;
+}
+.bosch{
+  color:#eb3832;
+  font-weight: bold !important;
+}
+.bosch-descuento-rojo{
+  color: #eb3832 !important;
+  font-size: 28px;   
+  font-weight: bold;
+}
+@media only screen and (min-width: 768px) {
+  .bg-pharallax{
+
+    font-size: 2.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: url(assets/img/servicio-tecnico.png);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+  }
+  .btn-left-parallax{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 25px;
+  }
+  .btn-right-parallax{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 25px;
+  }
+  .text-parallax{
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .bg-pharallax-m{
+
+    font-size: 2.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-image: url(assets/img/servicio-tecnico.png);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+  }
+  .btn-left-parallax{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 25px;
+  }
+  .btn-right-parallax{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 25px;
+  }
+  .text-parallax{
+    margin-bottom: 0px;
+  }
+}
+.efecto:hover {
+ -webkit-transform: scale(1.5);
+ transform: scale(1.1)
+}
+@media only screen and (min-width: 320px) {
+  .bg-pharallax-e{
+
+    font-size: 2.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    background-image: url(../assets/img/servicios-integrales-para-el-hogar.png);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+  }
+  .btn-left-parallax{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 25px;
+  }
+  .btn-right-parallax{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 25px;
+  }
+  .text-parallax{
+    margin-bottom: 0px;
+  }
+}
+.efecto:hover {
+ -webkit-transform: scale(1.5);
+ transform: scale(1.1)
+}
+@media only screen and (min-width: 768px) {
+  .bg-pharallax-r{
+
+    font-size: 2.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    background-image: url(../assets/img/servicios-integrales-para-el-hogar.png);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+  }
+  .btn-left-parallax{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 25px;
+  }
+  .btn-right-parallax{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 25px;
+  }
+  .text-parallax{
+    margin-bottom: 0px;
+  }
+}
+
+.color-lg{
+  color: #A50034;
+}
+
+
+.bg-lg{
+  background-color: #A50034;
+}
+
+#tienes-dudas{
+  padding-top:10px; 
+}
+
+.img-lavadora{
+  width: 80%;
+}
+
+.bg-greey{
+  background-color: #6B6B6B;
+}
+
+.color-greey{
+  color: #6B6B6B;
+}
+
+.text-black{
+  color: black;
+}
+
+.myDiv {
+  background-color: #A50034;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 12px 0px 0px 0px;
+
+  font-size: 20px;
+  z-index: 999;
+}
+
+.pd-inside {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.toast {
+  position: fixed;
+  z-index: 999;
+  width: 325px;
+  bottom: 5%;
+  right: 5%;
+}
+
+.padd-tb{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}

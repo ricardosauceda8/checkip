@@ -1,0 +1,35 @@
+.jumbotron {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-bottom: 8rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+.jumbotron-e {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}
